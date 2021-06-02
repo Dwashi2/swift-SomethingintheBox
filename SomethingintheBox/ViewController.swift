@@ -50,11 +50,35 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        print(inBox([
+        print(self.inBox([
             "###",
             "#*#",
             "###"
           ]))
+        
+        print(self.inBox([
+            "####",
+            "#* #",
+            "#  #",
+            "####"
+          ]))
+        
+        print(self.inBox([
+            "*####",
+            "# #",
+            "#  #*",
+            "####"
+          ]))
+        
+        print(self.inBox([
+            "#####",
+            "#   #",
+            "#   #",
+            "#   #",
+            "#####"
+          ]) )
+        
+        
     }
     
 
